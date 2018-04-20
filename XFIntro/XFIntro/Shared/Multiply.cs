@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace XFIntro
+namespace XFIntro.Shared
 {
     public class Multiplier
     {

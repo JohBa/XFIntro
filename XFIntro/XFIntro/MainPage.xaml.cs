@@ -19,5 +19,10 @@ namespace XFIntro
             Navigation.PushAsync(new SimpleShared());
         }
 
+        void ControlClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new UserControl());
+        }
+
     }
 }

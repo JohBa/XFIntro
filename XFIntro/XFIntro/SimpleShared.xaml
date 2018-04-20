@@ -14,6 +14,9 @@
                 <Label Text="Result: " />
                 <Label x:Name="resultLabel" />
             </StackLayout>
+
+
+            <Button Text="Go back" Clicked="BackClicked" VerticalOptions="End" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

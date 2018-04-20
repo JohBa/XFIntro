@@ -23,7 +23,19 @@ namespace XFIntro
 
         void MultiplyClicked(object sender, EventArgs e)
         {
-            resultLabel.Text = "" + _multiplier.Multiply(Convert.ToInt32(number1.Text), Convert.ToInt32(number2.Text));
+            try
+            {
+                resultLabel.Text = "" + _multiplier.Multiply(Convert.ToInt32(number1.Text), Convert.ToInt32(number2.Text));
+            }
+            catch(Exception)
+            {
+                resultLabel.Text = "Error!";
+            }
+        }
+
+        void BackClicked(object sender, EventArgs e)
+        {
+            Navigation.PopAsync();
         }
     }
 }

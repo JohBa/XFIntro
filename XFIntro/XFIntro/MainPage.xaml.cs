@@ -24,5 +24,10 @@ namespace XFIntro
             Navigation.PushAsync(new UserControl());
         }
 
+        void RendererClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CustomRenderer());
+        }
+
     }
 }

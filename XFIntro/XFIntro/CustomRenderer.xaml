@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XFIntro;assembly=XFIntro"
+             x:Class="XFIntro.CustomRenderer">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="See my new custom entry renderer!" />
+            <local:CustomEntry Text="In Shared Code" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

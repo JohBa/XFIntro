@@ -9,6 +9,7 @@
            HorizontalOptions="Center" />
         <Button BackgroundColor="Green" Text="Simple Shared Code" Clicked="SharedClicked" />
         <Button BackgroundColor="Green" Text="User Control" Clicked="ControlClicked" />
+        <Button BackgroundColor="Green" Text="Custom Renderer" Clicked="RendererClicked" />
     </StackLayout>
 
 </ContentPage>

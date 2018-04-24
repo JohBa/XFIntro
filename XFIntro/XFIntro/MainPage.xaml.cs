@@ -29,5 +29,9 @@ namespace XFIntro
             Navigation.PushAsync(new CustomRenderer());
         }
 
+        void DependencyClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DependencyServiceSample());
+        }
     }
 }

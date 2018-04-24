@@ -15,6 +15,9 @@
     <Compile Update="Controls\OwnControl.xaml.cs">
       <DependentUpon>OwnControl.xaml</DependentUpon>
     </Compile>
+    <Compile Update="DependencyServiceSample.xaml.cs">
+      <DependentUpon>DependencyServiceSample.xaml</DependentUpon>
+    </Compile>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
       <DependentUpon>*.xaml</DependentUpon>
     </Compile>
@@ -28,6 +31,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="CustomRenderer.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DependencyServiceSample.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="SimpleShared.xaml">

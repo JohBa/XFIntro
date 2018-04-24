@@ -54,6 +54,8 @@ namespace XFIntro.UWP
 
                 Xamarin.Forms.Forms.Init(e);
 
+                Xamarin.Forms.DependencyService.Register<TextToSpeechImpl>();
+
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {
                     //TODO: Load state from previously suspended application

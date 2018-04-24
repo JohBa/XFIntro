@@ -23,6 +23,7 @@ namespace XFIntro.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            Xamarin.Forms.DependencyService.Register<TextToSpeechImpl>();
             LoadApplication(new XFIntro.App());
         }
     }

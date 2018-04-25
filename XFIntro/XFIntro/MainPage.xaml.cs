@@ -7,12 +7,12 @@ using Xamarin.Forms;
 
 namespace XFIntro
 {
-	public partial class MainPage : ContentPage
-	{
-		public MainPage()
-		{
-			InitializeComponent();
-		}
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+        }
 
         void SharedClicked(object sender, EventArgs e)
         {

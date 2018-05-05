@@ -33,5 +33,10 @@ namespace XFIntro
         {
             Navigation.PushAsync(new DependencyServiceSample());
         }
+
+        void SwipeClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ScrollViewWithSwipe());
+        }
     }
 }

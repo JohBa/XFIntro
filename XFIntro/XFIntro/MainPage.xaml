@@ -11,6 +11,8 @@
         <Button BackgroundColor="Green" Text="User Control" Clicked="ControlClicked" />
         <Button BackgroundColor="Green" Text="Custom Renderer" Clicked="RendererClicked" />
         <Button BackgroundColor="Green" Text="Dependency Service" Clicked="DependencyClicked" />
+
+        <Button BackgroundColor="Green" Text="SwipeRight in ScrollView" Clicked="SwipeClicked" />
     </StackLayout>
 
 </ContentPage>
